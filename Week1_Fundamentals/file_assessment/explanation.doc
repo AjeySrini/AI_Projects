@@ -1,0 +1,23 @@
+Task 1 – Read Inventory
+
+Open inventory.json using with open().
+
+Use json.load() to convert JSON data into a Python list.
+
+Print the number of books using len(inventory).
+
+Task 2 – Update and Save
+
+Create a dictionary for the new book.
+
+Append it to the list using inventory.append(new_book).
+
+Save the updated list back to the file using json.dump() with indent=4.
+
+Task 3 – Display Inventory
+
+Read the file again.
+
+Loop through each book using a for loop.
+
+Print the book details in the required format.
